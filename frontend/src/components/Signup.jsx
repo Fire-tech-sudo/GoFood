@@ -27,7 +27,7 @@ const Signup = () => {
             return;
         }
         // console.log(JSON.stringify({ name: credentials.name, email: credentials.email, password: credentials.password, location: credentials.geolocation }))
-        const response = await fetch("http://localhost:3000/api/createuser", {
+        const response = await fetch("https://gofood-cz6f.onrender.com/api/createuser", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"

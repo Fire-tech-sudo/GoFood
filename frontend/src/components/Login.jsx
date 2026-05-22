@@ -34,7 +34,7 @@ const Login = () => {
         //     password: credentials.password,
         // }))
         try {
-            const response = await fetch(`http://localhost:3000/api/loginuser`, {
+            const response = await fetch(`https://gofood-cz6f.onrender.com//api/loginuser`, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
